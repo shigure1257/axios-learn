@@ -1,1 +1,10 @@
-{}
+{
+    "endOfLine": "auto",
+    "semi": false,
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "printWidth": 100,
+    "trailingComma": "none",
+    "singleAttributePerLine": false,
+    "htmlWhitespaceSensitivity": "ignore"
+}
