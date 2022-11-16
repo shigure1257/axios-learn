@@ -1,8 +1,15 @@
 <!--  -->
 <template>
-  <div>内容</div>
+  <div class="Content">
+    <slot>内容</slot>
+  </div>
 </template>
 
 <script setup lang="ts"></script>
 
-<style scoped></style>
+<style lang="less" scoped>
+.Content {
+  background-color: blanchedalmond;
+  flex: 1;
+}
+</style>

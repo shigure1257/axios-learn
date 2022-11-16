@@ -1,8 +1,15 @@
 <!--  -->
 <template>
-  <div>侧边栏</div>
+  <div class="Aside">
+    <slot>侧边栏</slot>
+  </div>
 </template>
 
 <script setup lang="ts"></script>
 
-<style scoped></style>
+<style lang="less" scoped>
+.Aside {
+  width: 180px;
+  background-color: grey;
+}
+</style>

@@ -1,10 +1,10 @@
 <!--  -->
 <template>
   <div class="wrapper">
-    <Header class="Header">头</Header>
+    <Header></Header>
     <div class="container">
-      <Aside class="Aside">侧边栏</Aside>
-      <Conrtent class="Content">内容</Conrtent>
+      <Aside></Aside>
+      <Conrtent></Conrtent>
     </div>
   </div>
 </template>
@@ -20,24 +20,8 @@ import Conrtent from './content/index.vue'
   height: 100%;
 }
 
-.Header {
-  width: 100%;
-  height: 80px;
-  background-color: azure;
-}
-
 .container {
   display: flex;
   height: calc(~'100% - 80px');
-}
-
-.Aside {
-  width: 180px;
-  background-color: grey;
-}
-
-.Content {
-  background-color: blanchedalmond;
-  flex: 1;
 }
 </style>
